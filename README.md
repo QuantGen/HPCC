@@ -5,7 +5,7 @@
 - Familiarity with the Unix shell (command line)
     - Check iCER's [upcoming seminars and workshops](https://icer.msu.edu/upcoming-workshops) calendar for the next monthly "Introduction to Linux" workshop
 - Familiarity with iCER's HPCC
-    - Read iCER's documentation and user manual: https://wiki.hpcc.msu.edu/display/hpccdocs/Documentation+and+User+Manual
+    - Read iCER's [HPCC Documentation and User Manual](https://wiki.hpcc.msu.edu/display/hpccdocs/Documentation+and+User+Manual)
     - Check iCER's [upcoming seminars and workshops](https://icer.msu.edu/upcoming-workshops) calendar for the next monthly "Introduction to HPCC" workshop
     
 ## Getting Started
