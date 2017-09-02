@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. Get an HPCC account (ideally requested by the PI): https://contact.icer.msu.edu/account
-2. Get added to the `quantgen` group (requested by @gdlc or @agrueneberg): https://www.hpcc.msu.edu/contact
+2. Get added to the `quantgen` group (requested by [@gdlc](https://github.com/gdlc) or [@agrueneberg](https://github.com/agrueneberg)): https://www.hpcc.msu.edu/contact
 3. Use our shared configuration files:
 
         echo -e "\nsource /mnt/research/quantgen/tools/configfiles/bash/bashrc" >> ~/.bashrc
