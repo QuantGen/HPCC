@@ -11,7 +11,7 @@
 ## Getting Started
 
 1. Get an HPCC account (ideally requested by the PI): https://contact.icer.msu.edu/account
-2. Get added to the `quantgen` group (requested by [@gdlc](https://github.com/gdlc) or [@agrueneberg](https://github.com/agrueneberg)): https://www.hpcc.msu.edu/contact
+2. Get added to the `quantgen` group: please contact [@agrueneberg](https://github.com/agrueneberg) or [@gdlc](https://github.com/gdlc)
 3. Check if you can access the `quantgen` research space:
 
         cd /mnt/research/quantgen
