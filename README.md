@@ -18,8 +18,8 @@
 
 4. Use our shared configuration files:
 
-        echo -e "\nsource /mnt/research/quantgen/tools/configfiles/bash/bashrc" >> ~/.bashrc
-        echo -e "\nsource /mnt/research/quantgen/tools/configfiles/bash/bash_profile" >> ~/.bash_profile
+        echo -e "\nsource /mnt/research/quantgen/tools/configfiles/bash/bashrc" >> ~/.bashrc &&
+        echo -e "\nsource /mnt/research/quantgen/tools/configfiles/bash/bash_profile" >> ~/.bash_profile &&
         touch /mnt/research/quantgen/tools/configfiles/bash/subscribers/$USER
 
     Currently, these files
