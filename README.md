@@ -32,6 +32,11 @@
 
     For other installed software check the `module avail` output.
 
+## Logging in without a Password
+
+If you are tired of typing your password every time you connect to the HPCC you can use public key authentication instead. Public key authentication relies on two files, a public key (that is public in a way that you can give it to other people) and a private key (that is private in a way that you have to keep it to yourself).
+These files can be generated with the `ssh-keygen` command on your computer: `ssh-keygen -t rsa -b 4096 -C nameofyourcomputer` where `nameofyourcomputer` is some nickname for your computer (`-C nameofyourcomputer` is optional, but helps if you have a lot of machines). Leave every prompy empty and simply enter through. You will now have two files called `id_rsa` and `id_rsa.pub` in your `~/.ssh` directory. `id_rsa` is your new private key and `id_rsa.pub` is your new public key. Open the public key file `id_rsa.pub` and copy the contents. Make sure you didn't copy the contents of the private key file `id_rsa`. Connect to the HPCC, and paste the public key into the `~/.ssh/authorized_keys` file on a new line. Disconnect, and you should now be able to reconnect without providing a password. Your password will instead be the private key file (`~/.ssh/id_rsa`), so make sure it is unavailable to other people. There is no problem if you lose the file (e.g., your computer breaks down) as you still have your NetID password as a backup and can simply create a new key to replace the old one (after removing the old entry in the `~/.ssh/authorized_keys` file).
+
 ## Plotting on the HPCC
 
 To see plots on the HPCC you need to enable X11 forwarding. On a Mac, you need to install [XQuatz](https://www.xquartz.org/) and restart your computer to use this feature. X11 forwarding can be enabled by setting the `-X` in the `ssh` command: `ssh -X username@hpcc.msu.edu`. After you have connected that way, you should be able to see the plots. You will also be able to see PDF files with a program called evince: `evince file.pdf`.
