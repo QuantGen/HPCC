@@ -10,7 +10,7 @@
     
 ## Getting Started
 
-1. Get an HPCC account (ideally requested by the PI)
+1. Get an HPCC account (requested by the PI)
 2. Get added to the `quantgen` group
 3. Check if you can access the `quantgen` research space:
 
